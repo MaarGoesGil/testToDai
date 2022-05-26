@@ -1,0 +1,8 @@
+*{
+    padding: 0%;
+}
+.map {
+    height: 78vh;
+    width: 100%;
+    position: relative;
+}
