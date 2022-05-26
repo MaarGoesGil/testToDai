@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Map from './Components/Map/Map';
-import Info from './Components/Informacion/Info';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <Map />
-                {/* <Info/> */}
-            </div>)
-    }
+function App () {
+    return (
+        <div>
+        <Map />
+        </div>
+    )
 }
+
 export default App
