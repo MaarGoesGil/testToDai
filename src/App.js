@@ -1,12 +1,10 @@
 import React from 'react'
-import Map from './Components/Map/Map';
+import Map from './Components/Map';
 
-function App () {
+function App() {
     return (
         <div>
-        <Map />
-        </div>
-    )
+            <Map />
+        </div>)
 }
-
 export default App
